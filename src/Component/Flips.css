@@ -1,0 +1,700 @@
+/* FlipImage.css */
+.flip-box {
+    width: 120px;
+    height: 120px;
+    perspective: 1000px;
+    padding-left: 150px;
+  }
+  
+  .flip-box-inner1 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 50px;
+    top: 10px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner1 {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front1, .flip-box-back1 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 10px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front1 {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back1 {
+    background-color: #553D67;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .flip-box-back1 p{
+    position: absolute;
+    color: #EDF5E1;
+    top: 5px;
+    left: 30px;
+    font-size: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .flipimg1{
+    width: 120px;
+    height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .flip-box-inner2 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 140px;
+    top: 130px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner2 {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front2, .flip-box-back2 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 10px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front2 {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back2 {
+    background-color: #553D67;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .flip-box-back2 p{
+    position: absolute;
+    color: #EDF5E1;
+    top: 8px;
+    left: 35px;
+    font-size: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .flipimg2{
+    width: 120px;
+    height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-box-inner3 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 230px;
+    top: 250px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner3 {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front3, .flip-box-back3 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 10px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front3 {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back3 {
+    background-color: #553D67;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .flip-box-back3 p{
+    position: absolute;
+    color: #EDF5E1;
+    top: 5px;
+    left: 35px;
+    font-size: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .flipimg3{
+    width: 120px;
+    height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-box-inner4 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 320px;
+    top: 370px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner4 {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front4, .flip-box-back4 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 10px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front4 {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back4 {
+    background-color: #553D67;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .flip-box-back4 p{
+    position: absolute;
+    color: #EDF5E1;
+    top: 8px;
+    left: 45px;
+    font-size: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .flipimg4{
+    width: 120px;
+    height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-box-inner5 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 410px;
+  top: 490px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner5 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front5, .flip-box-back5 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 10px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front5 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back5 {
+  background-color: #553D67;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-box-back5 p{
+  position: absolute;
+  color: #EDF5E1;
+  top: 5px;
+  left: 30px;
+  font-size: 70px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flipimg5{
+  width: 120px;
+  height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-box-inner6 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 810px;
+  top: 490px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner6 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front6, .flip-box-back6 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 10px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front6 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back6 {
+  background-color: #553D67;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-box-back6 p{
+  position: absolute;
+  color: #EDF5E1;
+  top: 5px;
+  left: 35px;
+  font-size: 70px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flipimg6{
+  width: 120px;
+  height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-box-inner7 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 900px;
+  top: 370px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner7 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front7, .flip-box-back7 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 10px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front7 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back7 {
+  background-color: #553D67;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-box-back7 p{
+  position: absolute;
+  color: #EDF5E1;
+  top: 5px;
+  left: 35px;
+  font-size: 70px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flipimg7{
+  width: 120px;
+  height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-box-inner8 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 990px;
+  top: 250px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner8 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front8, .flip-box-back8 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 10px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front8 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back8 {
+  background-color: #553D67;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-box-back8 p{
+  position: absolute;
+  color: #EDF5E1;
+  top: 5px;
+  left: 35px;
+  font-size: 70px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flipimg8{
+  width: 120px;
+  height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-box-inner9 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 1080px;
+  top: 130px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner9 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front9, .flip-box-back9 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 10px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front9 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back9 {
+  background-color: #553D67;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-box-back9 p{
+  position: absolute;
+  color: #EDF5E1;
+  top: 5px;
+  left: 40px;
+  font-size: 70px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flipimg9{
+  width: 120px;
+  height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-box-inner10 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 1170px;
+  top: 10px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner10 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front10, .flip-box-back10 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 10px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front10 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back10 {
+  background-color: #553D67;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-box-back10 p{
+  position: absolute;
+  color: #EDF5E1;
+  top: 5px;
+  left: 30px;
+  font-size: 70px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flipimg10{
+  width: 120px;
+  height: 120px;
+}
+
+
+
+
+
+.musicpic1{
+  position: absolute;
+  top: 10px;
+  left: 460px;
+  width: 400px;
+  height: 350px;
+}
+
+
+.musicpic2{
+  position: absolute;
+  top: 450px;
+  left: 550px;
+  width: 250px;
+  height: 250px;
+}
+
+
+.tickets1{
+  position: absolute;
+  top: 400px;
+  left: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.tickets2{
+  position: absolute;
+  top: 400px;
+  right: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.book{
+  position: absolute;
+  top: 800px;
+  left: 300px;
+  font-weight: 600;
+  color: #EDF5E1;
+}
+
+
+
+.book button {
+  position: absolute;
+  width: 200px;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-left: 10px;
+  font-family: cursive;
+  background-color: #553D67;
+}
+
+.book button:hover{
+  position: absolute;
+  transition: 1s ease;
+  color: #EDF5E1;
+  border: 2px solid #EDF5E1;
+}

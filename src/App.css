@@ -1,0 +1,271 @@
+/* ***************Navbar Start***************/
+.nav1-bg{
+  position: relative;
+  background-color: #2F2FA2;
+  width: 1348px;
+  height: 620px;
+  top: -10px;
+}
+
+.NAV1{
+    background-color:#242582;
+    width: 1400px;
+    height: 70px;
+    padding: 10px;
+    box-shadow: 8px 2px 8px #99738E;
+}
+
+.title1 a{
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  color: #EDF5E1;
+  font-size: 20px;
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav1 a{
+  position: absolute;
+  top: 20px;
+  left: 670px;
+  color: #EDF5E1;
+  font-size: 20px;
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav1 a:hover{
+    cursor: pointer;
+    transition: 1s ease;
+    color: #F64C72;
+}
+
+.nav2 a{
+  position: absolute;
+  top: 20px;
+  left: 830px;
+  color: #EDF5E1;
+  font-size: 20px;
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav2 a:hover{
+    cursor: pointer;
+    transition: 1s ease;
+    color: #F64C72;
+}
+
+.nav3 a{
+  position: absolute;
+  top: 20px;
+  left: 990px;
+  color: #EDF5E1;
+  font-size: 20px;
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav3 a:hover{
+    cursor: pointer;
+    transition: 1s ease;
+    color: #F64C72;
+}
+
+
+.nav4 a{
+  position: absolute;
+  top: 20px;
+  left: 1150px;
+  color: #EDF5E1;
+  font-size: 20px;
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav4 a:hover{
+    cursor: pointer;
+    transition: 1s ease;
+    color: #F64C72;
+}
+
+
+/****************Navbar End************** */
+
+
+
+
+
+
+
+
+/****************Home Start***************/
+
+.sec2-text1{
+  position: absolute;
+  top: 100px;
+  left: 220px;
+  color: #F64C72;
+  font-size: 80px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.sec2-text2{
+  position: absolute;
+  top: 200px;
+  left: 220px;
+  color: #99738E;
+  font-size: 80px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.sec2-text3{
+  position: absolute;
+  top: 300px;
+  left: 220px;
+  color: #558D67;
+  font-size: 80px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.sec2-img1{
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    width: 600px;
+}
+
+.sec2-img2{
+  position: absolute;
+  top: 320px;
+  left: 0px;
+  width: 700px;
+  height: 300px;
+}
+
+.sec2-img3{
+  position: absolute;
+  top: 320px;
+  right: 0px;
+  width: 700px;
+  height: 300px;
+}
+
+
+.nav2-bg{
+  position: relative;
+  width: 1348px;
+  height: 900px;
+  background-color:#242582;
+  top: -10px;
+}
+
+/****************Home End************** */
+
+
+
+
+
+/****************Footer Start************** */
+
+
+.nav3-bg{
+  position: relative;
+  width: 1348px;
+  height: 380px;
+  background-color: #2F2FA2;
+  margin-top: -20px;
+  margin-bottom: 0px;
+}
+
+.footerimg2{
+  position: absolute;
+  top: 40px; 
+  right: 50px;
+}
+
+.footertext1{
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #EDF5E1;
+  font-size: 40px;
+}
+
+.footertext1:hover{
+  cursor: pointer;
+}
+
+.footertext2 a{
+  position: absolute;
+  top: 120px;
+  left: 150px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #EDF5E1;
+  text-decoration: none;
+}
+
+.footertext2 a:hover{
+  cursor: pointer;
+  transition: 1s ease;
+  color: #F64C72;
+}
+
+.footertext3 a{
+  position: absolute;
+  top: 170px;
+  left: 150px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.footertext3 a:hover{
+  cursor: pointer;
+  transition: 1s ease;
+  color: #F64C72;
+}
+
+.footertext4 a{
+  position: absolute;
+  top: 220px;
+  left: 150px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.footertext4 a:hover{
+  cursor: pointer;
+  transition: 1s ease;
+  color: #F64C72;
+}
+
+.footertext5 a{
+  position: absolute;
+  top: 270px;
+  left: 150px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.footertext5 a:hover{
+  cursor: pointer;
+  transition: 1s ease;
+  color: #F64C72;
+}
+
+.copyrighttext{
+  position: absolute;
+  color:#EDF5E1;
+  top: 1850px;
+  left: 440px;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/****************Footer End************** */
