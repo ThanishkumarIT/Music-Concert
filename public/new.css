@@ -1,0 +1,35 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+.container {
+display: flex;
+}
+
+.form {
+display: none;
+flex-direction: column;
+padding: 20px;
+border: 1px solid #ccc;
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+margin-bottom: 15px;
+}
+
+button {
+cursor: pointer;
+padding: 10px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 4px;
+}

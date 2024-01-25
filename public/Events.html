@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+   <!---JQuery Link-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <!---Bootstrap Link-->
+   <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+     rel="stylesheet"/>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Events.css">
+  </head>
+<body>
+  <div>
+   <!----Navbar Start---->
+   <section class="sec1">
+    <div class="nav1-bg">
+        <div class="NAV1 navbar-dark fixed-top">
+      <h3 class="title1"><a href="#">Music Vibes</a></h3>
+      <h3 class="nav1"><a href="App.js">Home</a></h3>
+      <h3 class="nav2"><a href="Events.html">Events</a></h3>
+      <h3 class="nav3"><a href="Contact.html">Contact</a></h3>
+      <h3 class="nav4"><a href="Login.html">Login</a></h3>
+    </div>
+    </div>
+    </section>
+
+     <!----Image Sliding Start---->
+    <section class="sec2">
+      <div class="text1">
+        <h2 class="texth1">Music <span class="span1">ON</span></h2>
+        <h2 class="texth2">World <span class="span1">OFF</span></h2>
+      </div>
+
+      <div class="carousel"> 
+        <div class="carousel-item"> 
+            <div class="slide-image1"
+                style="background-image:url('Ani.jpg');"> 
+            </div> 
+        </div> 
+        <div class="carousel-item"> 
+            <div class="slide-image2"
+                style="background-image:url('U1.jpg');"> 
+            </div> 
+        </div> 
+        <div class="carousel-item"> 
+            <div class="slide-image3"
+                style="background-image:url('Pradeep.jpg');"> 
+            </div> 
+        </div> 
+        <div class="carousel-item"> 
+          <div class="slide-image4"
+              style="background-image:url('Vijay_Antony.jpg');"> 
+          </div> 
+      </div> 
+      <div class="carousel-item"> 
+          <div class="slide-image5"
+              style="background-image:url('AR.jpg');"> 
+          </div> 
+      </div> 
+      <div class="carousel-item"> 
+          <div class="slide-image6"
+              style="background-image:url('GV.jpg');"> 
+          </div> 
+      </div> 
+      <div class="carousel-item"> 
+        <div class="slide-image7"
+            style="background-image:url('Harris.jpg');"> 
+        </div> 
+    </div> 
+    <div class="carousel-item"> 
+        <div class="slide-image8"
+            style="background-image:url('San.jpg');"> 
+        </div> 
+    </div> 
+    <div class="carousel-item"> 
+        <div class="slide-image9"
+            style="background-image:url('Hip.jpg');"> 
+        </div> 
+    </div> 
+    <div class="carousel-item"> 
+      <div class="slide-image10"
+          style="background-image:url('Sid.jpg');"> 
+      </div> 
+  </div> 
+    </div> 
+    </section>
+
+ <!----Search Start---->
+    <section class="sec3">
+         <!-- input tag -->
+    <input id="searchbar" onkeyup="search_concert()" type="text" name="search" placeholder="Search Full Concert Names...">      
+<!-- ordered list -->
+<ol id="list">
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <li class="concert">
+        <div class="head1">
+            Anirudh RockStar Show
+        </div>
+        <div class="img1">
+        <img src="Ani.jpg" alt="Avatar" class="img11">
+        <div class="middle1">
+        <div class="text1">
+            <a href="Ani.html" target="_blank">Click Here To Know More</a></div>
+        </div>
+        </div>
+            </li>
+        </div>
+
+        
+
+            <div class="col-md-6">
+                <li class="concert">
+                    <div class="head2">
+                        Yuvan Drugs Show
+                    </div>
+                    <div class="img2">
+                        <img src="U1.jpg" alt="Avatar" class="img22">
+                        <div class="middle2">
+                        <div class="text2">
+                            <a href="U1.html" target="_blank">Click Here To Know More</a></div>
+                        </div>
+                        </div>
+                    </li>
+            </div>
+
+    
+            <div class="col-md-6"> 
+                <li class="concert">
+                    <div class="head3">
+                        Pradeep Kumar Heaven Show
+                    </div>
+                    <div class="img3">
+                        <img src="Pradeep.jpg" alt="Avatar" class="img33">
+                        <div class="middle3">
+                        <div class="text3">
+                            <a href="Pradeep.html" target="_blank">Click Here To Know More</a></div>
+                        </div>
+                        </div>
+                </li>
+            </div> 
+            
+            
+            <div class="col-md-6"> 
+                <li class="concert">
+                    <div class="head4">
+                        Vijay Antony Blast Show
+                    </div>
+                    <div class="img4">
+                        <img src="Vijay_Antony.jpg" alt="Avatar" class="img44">
+                        <div class="middle4">
+                        <div class="text4">
+                            <a href="Vijay.html" target="_blank">Click Here To Know More</a></div>
+                        </div>
+                        </div>
+                </li>
+            </div>
+
+
+            <div class="col-md-6"> 
+                <li class="concert">
+                    <div class="head5">
+                        AR Rahman Melody Show
+                    </div>
+                    <div class="img5">
+                        <img src="AR.jpg" alt="Avatar" class="img55">
+                        <div class="middle5">
+                        <div class="text5">
+                            <a href="AR.html" target="_blank">Click Here To Know More</a></div>
+                        </div>
+                        </div>
+                </li>
+            </div> 
+            
+            
+            <div class="col-md-6"> 
+                <li class="concert">
+                    <div class="head6">
+                        GV Prakash kumar Heart Show
+                    </div>
+                    <div class="img6">
+                        <img src="GV.jpg" alt="Avatar" class="img66">
+                        <div class="middle6">
+                        <div class="text6">
+                            <a href="GV.html" target="_blank">Click Here To Know More</a></div>
+                        </div>
+                        </div>
+                </li>
+            </div>
+
+
+            <div class="col-md-6"> 
+                <li class="concert">
+                    <div class="head7">
+                        Harris Jayaraj Love Show
+                    </div>
+                    <div class="img7">
+                        <img src="Harris.jpg" alt="Avatar" class="img77">
+                        <div class="middle7">
+                        <div class="text7">
+                            <a href="Harris.html" target="_blank">Click Here To Know More</a></div>
+                        </div>
+                        </div>
+                </li>
+            </div> 
+            
+            
+            <div class="col-md-6"> 
+                <li class="concert">
+                    <div class="head8">
+                        Santhosh Narayanan Fire Show
+                    </div>
+                    <div class="img8">
+                        <img src="San.jpg" alt="Avatar" class="img88">
+                        <div class="middle8">
+                        <div class="text8">
+                            <a href="San.html" target="_blank">Click Here To Know More</a></div>
+                        </div>
+                        </div>
+                </li>
+            </div>
+
+
+            <div class="col-md-6"> 
+                <li class="concert">
+                    <div class="head9">
+                        Hiphop Tamizha Rap Show
+                    </div>
+                    <div class="img9">
+                        <img src="Hip.jpg" alt="Avatar" class="img99">
+                        <div class="middle9">
+                        <div class="text9">
+                            <a href="Hip.html" target="_blank">Click Here To Know More</a></div>
+                        </div>
+                    </div>
+                </li>
+            </div> 
+            
+            
+            
+            <div class="col-md-6"> 
+                <li class="concert">
+                    <div class="head10">
+                        Sid Sriram Love Breakup Show
+                    </div>
+                    <div class="img10">
+                        <img src="Sid.jpg" alt="Avatar" class="img110">
+                        <div class="middle10">
+                        <div class="text10">
+                            <a href="Sid.html" target="_blank">Click Here To Know More</a></div>
+                        </div>
+                        </div>
+                </li>
+            </div>
+
+
+
+
+            </div>
+        </div>
+ </ol> 
+</section>
+
+ <!----Footer Start---->
+ <section class="sec4">
+    <div class="nav3-bg">
+    <img class="footerimg2" src="footerimg.png"></img>
+    <h3 class="footertext1">Music Vibes</h3>
+    <h4 class="footertext2"><a href="App.js">Home</a></h4>
+    <h4 class="footertext3"><a href="Events.html">Events</a></h4>
+    <h4 class="footertext4"><a href="Contact.html">Contact</a></h4>
+    <h4 class="footertext5"><a href="Login.html">Login</a></h4>
+    </div>
+     <div class="copyrighttext">
+      Copyright &copy; 2024 by Thanish kumar | All Rights Reserved
+      </div>
+  </section>
+    </div>
+    
+    <script src="Events.js"></script> 
+</body>
+</html>
