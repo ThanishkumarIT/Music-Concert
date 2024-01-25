@@ -175,6 +175,74 @@ h1{
   transform: rotate(360deg);
 }
 
+.button1{
+  width: 100px;
+  height: 50px;
+}
+
+.button1 {
+  background-color: #2F2FA2;
+  color: #EDF5E1;
+  text-decoration: none;
+  border: 2px solid #EDF5E1;
+  font-family:URW Chancery L, cursive;
+}
+
+.button1:hover{    
+  border: 2px solid #F64C72;
+}
+
+.button1 a{
+  text-decoration: none;
+  color: #F64C72;
+  padding: 10px 10px 10px 10px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button2{
+  width: 100px;
+  height: 50px;
+}
+
+.button2 {
+  background-color: #2F2FA2;
+  color: #EDF5E1;
+  text-decoration: none;
+  border: 2px solid #EDF5E1;
+  font-family:URW Chancery L, cursive;
+}
+
+.button2:hover{    
+  border: 2px solid #F64C72;
+}
+
+.button2 a{
+  text-decoration: none;
+  color: #F64C72;
+  padding: 10px 10px 10px 10px;
+  font-weight: 600;
+}
+
+
+
 
 
 /****************Footer Start************** */

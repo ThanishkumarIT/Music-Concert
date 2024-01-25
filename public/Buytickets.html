@@ -59,8 +59,8 @@
                   <option>20,000/-</option>
                 </select>
             </label><br><br>
-            <button type="submit" onclick="checkAllFields1()">Submit</button>
-            <button type="submit" onclick="cancel1()">Cancel</button>
+            <button class="button1" type="submit" onclick="checkAllFields1()"><a href="App.js">Submit</button></a>
+            <button class="button2" type="submit" onclick="cancel1()"><a href="App.js">Cancel</button></a>
         </form>
     </div>
   </div>
@@ -106,13 +106,13 @@
 
             // Display a message based on the check
             if (allFieldsFilled) {
-             alert('Thank for apply and you will receive the ticket through the mail');
+             alert('Thank for apply and you will receive the ticket through the mail You will redirected to Home page');
             } else {
                 alert('Please fill in all fields');
             }
             }
         function cancel1(){
-            alert("Sorry, you have cancelled the booking");
+            alert("Sorry, you have cancelled the booking and You will redirected to Home page");
         }
         </script>
   </body>
