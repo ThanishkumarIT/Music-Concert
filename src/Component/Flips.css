@@ -36,14 +36,14 @@
   }
   
   .flip-box-back1 {
-    background-color: #553D67;
+    background-color: #bbb;
     color: white;
     transform: rotateY(180deg);
   }
 
   .flip-box-back1 p{
     position: absolute;
-    color: #EDF5E1;
+    color: #242582;
     top: 5px;
     left: 30px;
     font-size: 70px;
@@ -99,14 +99,14 @@
   }
   
   .flip-box-back2 {
-    background-color: #553D67;
+    background-color: #bbb;
     color: white;
     transform: rotateY(180deg);
   }
 
   .flip-box-back2 p{
     position: absolute;
-    color: #EDF5E1;
+    color: #242582;
     top: 8px;
     left: 35px;
     font-size: 70px;
@@ -165,14 +165,14 @@
   }
   
   .flip-box-back3 {
-    background-color: #553D67;
+    background-color: #bbb;
     color: white;
     transform: rotateY(180deg);
   }
 
   .flip-box-back3 p{
     position: absolute;
-    color: #EDF5E1;
+    color: #242582;
     top: 5px;
     left: 35px;
     font-size: 70px;
@@ -228,14 +228,14 @@
   }
   
   .flip-box-back4 {
-    background-color: #553D67;
+    background-color: #bbb;
     color: white;
     transform: rotateY(180deg);
   }
 
   .flip-box-back4 p{
     position: absolute;
-    color: #EDF5E1;
+    color: #242582;
     top: 8px;
     left: 45px;
     font-size: 70px;
@@ -295,14 +295,14 @@
 }
 
 .flip-box-back5 {
-  background-color: #553D67;
+  background-color: #bbb;
   color: white;
   transform: rotateY(180deg);
 }
 
 .flip-box-back5 p{
   position: absolute;
-  color: #EDF5E1;
+  color: #242582;
   top: 5px;
   left: 30px;
   font-size: 70px;
@@ -359,14 +359,14 @@
 }
 
 .flip-box-back6 {
-  background-color: #553D67;
+  background-color: #bbb;
   color: white;
   transform: rotateY(180deg);
 }
 
 .flip-box-back6 p{
   position: absolute;
-  color: #EDF5E1;
+  color: #242582;
   top: 5px;
   left: 35px;
   font-size: 70px;
@@ -423,14 +423,14 @@
 }
 
 .flip-box-back7 {
-  background-color: #553D67;
+  background-color: #bbb;
   color: white;
   transform: rotateY(180deg);
 }
 
 .flip-box-back7 p{
   position: absolute;
-  color: #EDF5E1;
+  color: #242582;
   top: 5px;
   left: 35px;
   font-size: 70px;
@@ -490,14 +490,14 @@
 }
 
 .flip-box-back8 {
-  background-color: #553D67;
+  background-color: #bbb;
   color: white;
   transform: rotateY(180deg);
 }
 
 .flip-box-back8 p{
   position: absolute;
-  color: #EDF5E1;
+  color: #242582;
   top: 5px;
   left: 35px;
   font-size: 70px;
@@ -553,14 +553,14 @@
 }
 
 .flip-box-back9 {
-  background-color: #553D67;
+  background-color: #bbb;
   color: white;
   transform: rotateY(180deg);
 }
 
 .flip-box-back9 p{
   position: absolute;
-  color: #EDF5E1;
+  color: #242582;
   top: 5px;
   left: 40px;
   font-size: 70px;
@@ -616,14 +616,14 @@
 }
 
 .flip-box-back10 {
-  background-color: #553D67;
+  background-color: #bbb;
   color: white;
   transform: rotateY(180deg);
 }
 
 .flip-box-back10 p{
   position: absolute;
-  color: #EDF5E1;
+  color: #242582;
   top: 5px;
   left: 30px;
   font-size: 70px;
@@ -658,18 +658,18 @@
 
 .tickets1{
   position: absolute;
-  top: 400px;
+  top: 500px;
   left: 20px;
   width: 300px;
-  height: 300px;
+  height: 200px;
 }
 
 .tickets2{
   position: absolute;
-  top: 400px;
+  top: 500px;
   right: 20px;
   width: 300px;
-  height: 300px;
+  height: 200px;
 }
 
 .book{
